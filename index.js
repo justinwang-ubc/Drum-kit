@@ -1,6 +1,6 @@
 var numberOfDrumButtons = document.querySelectorAll(".drum").length;
 
-document.querySelector("button").style.backgroundColor= "green";
+// document.querySelector("button").style.backgroundColor= "green";
 for(var i =0; i < numberOfDrumButtons ; i++){
 document.querySelectorAll(".drum")[i].addEventListener("click", function(){
 
@@ -20,7 +20,7 @@ document.addEventListener("keydown", function(event){
 function makesound(key){
   switch (key) {
     case "w":
-     var tom1 = new Audio("sounds/left-alert.mp3");
+     var tom1 = new Audio("sounds/tom-1.mp3");
      tom1.play();
       break;
 
